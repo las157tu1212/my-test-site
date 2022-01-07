@@ -1,0 +1,61 @@
+body{
+  background-color: darksalmon;
+}
+
+hr{
+  border: none;
+
+}
+
+#line1{
+  border-top: solid 3px rgb(246, 200, 146);
+}
+
+#line2{
+  border-top: solid 6px rgb(255, 250, 238);
+}
+
+.contents1{
+  position: relative;
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.contents1_text{
+  color: white;
+  position: absolute;
+  margin-left: -30px;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.contents1_text:hover{
+
+  color: rgb(149, 246, 51);
+  position: absolute;
+}
+
+.contents1_text a:hover::after{
+  background-color: rgba(73, 102, 15,0.5);
+  position: absolute;
+  transition: all 0.5s;
+  transform: scale(0, 1);/*X方向0、Y方向1*/
+  transform-origin: left top;/*左上基点*/
+}
+
+
+#wrap_menu{
+  padding: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 60%;
+  background-color: floralwhite;
+}
+
+#text_menu{
+  font-size: 25px;
+}
